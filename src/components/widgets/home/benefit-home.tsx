@@ -23,9 +23,10 @@ const BenefitHome = () => {
       >
         <Image
           src={useColorModeValue(
-            "/assets/images/light_illustration_benefit_reflection.png",
-            "/assets/images/dark_illustration_benefit_reflection.png"
+            "/assets/images/light_illustration_benefit_therapy.png",
+            "/assets/images/dark_illustration_benefit_therapy.png"
           )}
+          alt="Therapy image illustration"
         />
         <Stack maxWidth={"35rem"}>
           <HStack align={"center"} gapX={"1rem"}>
@@ -34,6 +35,7 @@ const BenefitHome = () => {
                 "/assets/images/light_benefit_therapy.svg",
                 "/assets/images/dark_benefit_therapy.svg"
               )}
+              alt="Therapy image icon"
             />
             <Heading color={useColorModeValue("#55B5AB", "#94D1CB")}>
               Therapy
@@ -42,7 +44,7 @@ const BenefitHome = () => {
           <Heading size={"4xl"}>
             Choose from the variety of therapy options we offer
           </Heading>
-          <Text>Select from Among 7 Phobias to Work On</Text>
+          <Text>Select from Among 8 Phobias to Work On</Text>
         </Stack>
       </Flex>
       <Flex
@@ -58,6 +60,7 @@ const BenefitHome = () => {
                 "/assets/images/light_benefit_assessment.svg",
                 "/assets/images/dark_benefit_assessment.svg"
               )}
+              alt="Assessment image icon"
             />
             <Heading color={useColorModeValue("#55B5AB", "#94D1CB")}>
               Assessment
@@ -76,6 +79,7 @@ const BenefitHome = () => {
             "/assets/images/light_illustration_benefit_assessment.png",
             "/assets/images/dark_illustration_benefit_assessment.png"
           )}
+          alt="Assessment image illustration"
         />
       </Flex>
       <Box height={"5rem"} />
@@ -90,6 +94,7 @@ const BenefitHome = () => {
             "/assets/images/light_illustration_benefit_reflection.png",
             "/assets/images/dark_illustration_benefit_reflection.png"
           )}
+          alt="Reflection image illustration"
         />
         <Stack maxWidth={"35rem"}>
           <HStack align={"center"} gapX={"1rem"}>
@@ -98,6 +103,7 @@ const BenefitHome = () => {
                 "/assets/images/light_benefit_reflection.svg",
                 "/assets/images/dark_benefit_reflection.svg"
               )}
+              alt="Reflection image icon"
             />
             <Heading color={useColorModeValue("#55B5AB", "#94D1CB")}>
               Journaling
@@ -121,6 +127,7 @@ const BenefitHome = () => {
                 "/assets/images/light_benefit_log.svg",
                 "/assets/images/dark_benefit_log.svg"
               )}
+              alt="Log image icon"
             />
             <Heading color={useColorModeValue("#55B5AB", "#94D1CB")}>
               Session Logs
@@ -139,6 +146,7 @@ const BenefitHome = () => {
             "/assets/images/light_illustration_benefit_log.png",
             "/assets/images/dark_illustration_benefit_log.png"
           )}
+          alt="Log image illustration"
         />
       </Flex>
     </Stack>

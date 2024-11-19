@@ -23,8 +23,8 @@ const FeatureHome = () => {
           )}
           alt="Phobia Count"
         />
-        <Heading>7 in 1</Heading>
-        <Text>FEAR Features Seven of the Most Common Phobias</Text>
+        <Heading>8 in 1</Heading>
+        <Text>FEAR Features Eight of the Most Common Phobias</Text>
       </Stack>
       <Stack maxWidth={"20rem"} align={"center"} textAlign={"center"}>
         <Image
