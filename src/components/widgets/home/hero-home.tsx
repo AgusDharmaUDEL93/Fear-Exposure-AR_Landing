@@ -1,6 +1,7 @@
 "use client";
 
 import { useColorModeValue } from "@/components/ui/color-mode";
+import { linkRedirection } from "@/utils/link-redirection";
 import {
   Button,
   Center,
@@ -39,7 +40,16 @@ const HeroHome = () => {
           All in one AR-powered exposure therapy tool to help tackle your fears
         </Text>
 
-        <Button size={"xl"} variant={"outline"} bgColor={"black"}>
+        <Button
+          size={"xl"}
+          variant={"outline"}
+          bgColor={"black"}
+          onClick={() => {
+            linkRedirection(
+              "https://apps.apple.com/app/fear-exposure-ar/id6736893205"
+            );
+          }}
+        >
           <HStack align={"center"}>
             <Image src="/assets/images/apple_icon.svg" alt="Apple Icon" />
             <Flex direction={"column"} align={"start"} color={"white"}>

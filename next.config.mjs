@@ -3,15 +3,20 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ["@chakra-ui/react"],
   },
-  async redirects () {
+  async redirects() {
     return [
       {
-        source: '/testflight',
-        destination: 'https://testflight.apple.com/join/7WXBXUrE', 
+        source: "/testflight",
+        destination: "https://testflight.apple.com/join/7WXBXUrE",
         permanent: true,
       },
-    ]
-  }
+      {
+        source: "/app",
+        destination: "https://apps.apple.com/app/fear-exposure-ar/id6736893205",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
