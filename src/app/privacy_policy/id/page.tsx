@@ -5,92 +5,96 @@ const IdPrivacePolicy = () => {
   return (
     <Stack gapY={50} px={{ base: 4, md: "10%" }} py={"5rem"}>
       {/* General */}
-      <Heading>Privacy Policy for Fear Exposure AR</Heading>
+      <Heading>Kebijakan Privasi untuk Fear Exposure AR</Heading>
       <Stack gapY={50}>
-        <Heading size={"6xl"}>Privacy Policy</Heading>
+        <Heading size={"6xl"}>Kebijakan Privasi</Heading>
         <Stack>
-          <Text>Last updated: November 15, 2024</Text>
+          <Text>Terakhir diperbarui: 15 November 2024</Text>
           <Text>
-            This Privacy Policy describes Our policies and procedures on the
-            collection, Use and disclosure of Your information when You Use the
-            Service and tells You about Your privacy rights and how the law
-            protects You.
+            Kebijakan Privasi ini menjelaskan kebijakan dan prosedur Kami dalam
+            pengumpulan, Penggunaan, dan pengungkapan informasi Anda saat Anda
+            Menggunakan Layanan dan memberi tahu Anda tentang hak privasi Anda
+            dan bagaimana hukum melindungi Anda.
           </Text>
           <Text>
-            We Use Your Personal data to provide and improve the Service. By
-            Using the Service, You agree to the collection and Use of
-            information in accordance with this Privacy Policy. This Privacy
-            Policy has been created with the help of the Privacy Policy
-            Generator.
+            Kami Menggunakan Data Pribadi Anda untuk menyediakan dan
+            meningkatkan Layanan. Dengan Menggunakan Layanan, Anda menyetujui
+            pengumpulan dan Penggunaan informasi sesuai dengan Kebijakan Privasi
+            ini. Kebijakan Privasi ini dibuat dengan bantuan Generator Kebijakan
+            Privasi.
           </Text>
         </Stack>
       </Stack>
       {/* Interpretation and Definitions */}
       <Stack gapY={10}>
-        <Heading size={"4xl"}>Interpretation and Definitions</Heading>
+        <Heading size={"4xl"}>Interpretasi dan Definisi</Heading>
         <Stack gapY={5}>
-          <Heading size={"2xl"}>Interpretation</Heading>
+          <Heading size={"2xl"}>Interpretasi</Heading>
           <Text>
-            The words of which the initial letter is capitalized have meanings
-            defined under the following conditions. The following definitions
-            shall have the same meaning regardless of whether they appear in
-            singular or in plural.
+            Kata-kata yang huruf awalnya diawali dengan huruf kapital memiliki
+            makna yang didefinisikan berdasarkan kondisi berikut. Definisi
+            berikut akan memiliki makna yang sama, terlepas dari apakah
+            kata-kata tersebut muncul dalam bentuk tunggal atau jamak.
           </Text>
         </Stack>
 
         <Stack gapY={5}>
-          <Heading size={"2xl"}>Definitions</Heading>
+          <Heading size={"2xl"}>Definisi</Heading>
           <Stack>
-            <Text>For the purposes of this Privacy Policy:</Text>
+            <Text>Untuk tujuan Kebijakan Privasi ini:</Text>
             <List.Root>
               <List.Item>
-                Account means a unique account created for You to access our
-                Service or parts of our Service.
+                Akun berarti akun unik yang dibuat untuk Anda guna mengakses
+                Layanan kami atau bagian dari Layanan kami.
               </List.Item>
               <List.Item>
-                Affiliate means an entity that controls, is controlled by or is
-                under common control with a party, where {'"control"'} means
-                ownership of 50% or more of the shares, equity interest or other
-                securities entitled to vote for election of directors or other
-                managing authority.
+                Afiliasi berarti suatu badan usaha yang mengendalikan,
+                dikendalikan oleh, atau berada di bawah kendali bersama dengan
+                suatu pihak, di mana {'"kendali"'} berarti kepemilikan 50% atau
+                lebih saham, kepentingan ekuitas, atau sekuritas lain yang
+                berhak memberikan suara untuk pemilihan direktur atau otoritas
+                pengelola lainnya.
               </List.Item>
               <List.Item>
-                Application refers to Fear Exposure AR, the software program
-                provided by the Company.
+                Aplikasi mengacu pada Fear Exposure AR, program perangkat lunak
+                yang disediakan oleh Perusahaan.
               </List.Item>
               <List.Item>
-                Company (referred to as either {'"the Company"'}, {'"We"'},{" "}
-                {'"Us"'}
-                or {'"Our"'} in this Agreement) refers to Fear Exposure AR.
+                Perusahaan (disebut sebagai {'"Perusahaan"'}, {'"Kami"'},{" "}
+                {'"Kami"'}
+                atau {'"Milik Kami"'} dalam Perjanjian ini) mengacu pada Fear
+                Exposure AR.
               </List.Item>
-              <List.Item>Country refers to: Indonesia</List.Item>
+              <List.Item>Negara mengacu pada: Indonesia</List.Item>
               <List.Item>
-                Device means any device that can access the Service such as a
-                computer, a cellphone or a digital tablet.
-              </List.Item>
-              <List.Item>
-                Personal Data is any information that relates to an identified
-                or identifiable individual.
-              </List.Item>
-              <List.Item>Service refers to the Application.</List.Item>
-              <List.Item>
-                Service Provider means any natural or legal person who processes
-                the data on behalf of the Company. It refers to third-party
-                companies or individuals employed by the Company to facilitate
-                the Service, to provide the Service on behalf of the Company, to
-                perform services related to the Service or to assist the Company
-                in analyzing how the Service is Used.
+                Perangkat berarti perangkat apa pun yang dapat mengakses Layanan
+                seperti komputer, ponsel, atau tablet digital.
               </List.Item>
               <List.Item>
-                Usage Data refers to data collected automatically, either
-                generated by the Use of the Service or from the Service
-                infrastructure itself (for example, the duration of a page
-                visit).
+                Data Pribadi adalah informasi apa pun yang berkaitan dengan
+                individu yang teridentifikasi atau dapat diidentifikasi.
+              </List.Item>
+              <List.Item>Layanan mengacu pada Aplikasi.</List.Item>
+              <List.Item>
+                Penyedia Layanan berarti setiap orang atau badan hukum yang
+                memproses data atas nama Perusahaan. Ini merujuk pada perusahaan
+                pihak ketiga atau individu yang dipekerjakan oleh Perusahaan
+                untuk memfasilitasi Layanan, menyediakan Layanan atas nama
+                Perusahaan, melakukan layanan yang terkait dengan Layanan atau
+                membantu Perusahaan dalam menganalisis bagaimana Layanan
+                Digunakan.
               </List.Item>
               <List.Item>
-                You means the individual accessing or Using the Service, or the
-                company, or other legal entity on behalf of which such
-                individual is accessing or Using the Service, as applicable.
+                Data Penggunaan mengacu pada data yang dikumpulkan secara
+                otomatis, baik yang dihasilkan oleh Penggunaan Layanan atau dari
+                infrastruktur Layanan itu sendiri (misalnya, durasi kunjungan
+                halaman).
+              </List.Item>
+              <List.Item>
+                Anda berarti individu yang mengakses atau Menggunakan Layanan,
+                atau perusahaan, atau badan hukum lain yang atas namanya
+                individu tersebut mengakses atau Menggunakan Layanan,
+                sebagaimana berlaku.
               </List.Item>
             </List.Root>
           </Stack>
@@ -98,243 +102,253 @@ const IdPrivacePolicy = () => {
       </Stack>
       {/* Collecting and Using Your Personal Data */}
       <Stack gapY={10}>
-        <Heading size={"4xl"}>Collecting and Using Your Personal Data</Heading>
+        <Heading size={"4xl"}>
+          Pengumpulan dan Penggunaan Data Pribadi Anda
+        </Heading>
         <Stack gapY={5}>
-          <Heading size={"2xl"}>Types of Data Collected</Heading>
+          <Heading size={"2xl"}>Jenis Data yang Dikumpulkan</Heading>
           <Stack gapY={3}>
-            <Heading size={"xl"}>Personal Data</Heading>
+            <Heading size={"xl"}>Data Pribadi</Heading>
             <Stack>
               <Text>
-                Our Application does not collect any personally identifiable
-                information (PII).
+                Aplikasi kami tidak mengumpulkan informasi identitas pribadi
+                (PII) apa pun.
               </Text>
               <Text>
-                No information that could be Used to contact or identify You,
-                such as names, email addresses, or other personal details, is
-                collected, stored, or transmitted while Using Our Service.
+                Tidak ada informasi yang dapat digunakan untuk menghubungi atau
+                mengidentifikasi Anda, seperti nama, alamat email, atau detail
+                pribadi lainnya, yang dikumpulkan, disimpan, atau dikirimkan
+                saat menggunakan Layanan Kami.
               </Text>
               <Text>
-                Any data collected is limited to anonymized, non-identifiable
-                information, such as demographic trends or crash analytics, Used
-                solely to improve the functionality and performance of the
-                Application.
+                Semua data yang dikumpulkan terbatas pada informasi anonim yang
+                tidak dapat diidentifikasi, seperti tren demografi atau analisis
+                kerusakan, yang digunakan semata-mata untuk meningkatkan
+                fungsionalitas dan kinerja Aplikasi.
               </Text>
             </Stack>
           </Stack>
           <Stack gapY={3}>
-            <Heading size={"xl"}>Usage Data</Heading>
+            <Heading size={"xl"}>Data Penggunaan</Heading>
             <Stack>
               <Text>
-                When Using our iOS Application, We may collect certain Usage
-                Data automatically to improve the performance and User
-                experience of the Application.
+                Saat Menggunakan Aplikasi iOS kami, Kami dapat mengumpulkan Data
+                Penggunaan tertentu secara otomatis untuk meningkatkan kinerja
+                dan pengalaman Pengguna Aplikasi.
               </Text>
               <Text>
-                The information collected is strictly limited to anonymized
-                demographic data (e.g., general location and Usage trends) and
-                crash analytics to identify and resolve technical issues. This
-                data does not include any personal information and cannot be
-                Used to identify individual Users.
+                Informasi yang dikumpulkan terbatas pada data demografi anonim
+                (misalnya, lokasi umum dan tren penggunaan) dan analisis
+                kerusakan untuk mengidentifikasi dan mengatasi masalah teknis.
+                Data ini tidak mencakup informasi pribadi apa pun dan tidak
+                dapat digunakan untuk mengidentifikasi Pengguna individu.
               </Text>
               <Text>
-                No identifiable information, such as your {"Device's"} IP
-                address, unique device ID, or browsing activity, is collected or
-                stored.
+                Tidak ada informasi yang dapat diidentifikasi, seperti alamat IP{" "}
+                {"Perangkat"} Anda, ID perangkat unik, atau aktivitas
+                penelusuran, yang dikumpulkan atau disimpan.
               </Text>
               <Text>
-                We Use this information solely to enhance the functionality and
-                reliability of the Application while respecting Your privacy.
+                Kami menggunakan informasi ini semata-mata untuk meningkatkan
+                fungsionalitas dan keandalan Aplikasi dengan tetap menghormati
+                privasi Anda.
               </Text>
             </Stack>
           </Stack>
           <Stack gapY={3}>
             <Heading size={"xl"}>
-              Information Collected while Using the Application
+              Informasi yang Dikumpulkan saat Menggunakan Aplikasi
             </Heading>
             <Stack>
               <Text>
-                Our Application does not collect any personal information from
-                Your Device.
+                Aplikasi kami tidak mengumpulkan informasi pribadi apa pun dari
+                Perangkat Anda.
               </Text>
               <Text>
-                While certain features of the Application may require temporary
-                access to Your {"Device's"} camera or photo library to function,
-                this access is limited to enabling those features directly on
-                Your Device. No data is collected, stored, or transmitted to the
-                Company or any external servers.
+                Meskipun fitur-fitur tertentu dari Aplikasi mungkin memerlukan
+                akses sementara ke kamera atau pustaka foto {"Perangkat"} Anda
+                agar berfungsi, akses ini terbatas untuk mengaktifkan
+                fitur-fitur tersebut secara langsung di Perangkat Anda. Tidak
+                ada data yang dikumpulkan, disimpan, atau dikirimkan ke
+                Perusahaan atau server eksternal mana pun.
               </Text>
               <Text>
-                You can manage permissions for the camera and photo library at
-                any time through Your Device settings.
+                Anda dapat mengelola izin untuk kamera dan perpustakaan foto
+                kapan saja melalui pengaturan Perangkat Anda.
               </Text>
             </Stack>
           </Stack>
         </Stack>
         <Stack gapY={5}>
-          <Heading size={"2xl"}>Use of Your Personal Data</Heading>
+          <Heading size={"2xl"}>Penggunaan Data Pribadi Anda</Heading>
           <Stack>
             <Text>
-              Our Company does not collect, retain, or process any Personal Data
-              from Users. All information remains stored locally on the{" "}
-              {"User's"}
-              device and is not transmitted, stored, or shared with any external
-              parties, including the Company, affiliates, or service providers.
+              Perusahaan kami tidak mengumpulkan, menyimpan, atau memproses Data
+              Pribadi apa pun dari Pengguna. Semua informasi tetap tersimpan
+              secara lokal di perangkat {"Pengguna"}
+              dan tidak dikirimkan, disimpan, atau dibagikan dengan pihak
+              eksternal mana pun, termasuk Perusahaan, afiliasi, atau penyedia
+              layanan.
             </Text>
             <Text>
-              As such, We do not Use Personal Data for any of the purposes
-              typically associated with data collection, such as account
-              management, communication, marketing, bUsiness transfers, or data
-              analysis.
+              Oleh karena itu, Kami tidak Menggunakan Data Pribadi untuk tujuan
+              apa pun yang biasanya terkait dengan pengumpulan data, seperti
+              pengelolaan akun, komunikasi, pemasaran, transfer bisnis, atau
+              analisis data.
             </Text>
             <Text>
-              If you have any questions about this policy or our approach to
-              User privacy, you can contact Us directly for clarification.
+              Jika Anda memiliki pertanyaan tentang kebijakan ini atau
+              pendekatan kami terhadap privasi Pengguna, Anda dapat menghubungi
+              Kami secara langsung untuk klarifikasi.
             </Text>
           </Stack>
         </Stack>
         <Stack gapY={5}>
-          <Heading size={"2xl"}>Retention of Your Personal Data</Heading>
+          <Heading size={"2xl"}>Penyimpanan Data Pribadi Anda</Heading>
           <Text>
-            Our Company does not retain any Personal Data or Usage Data from
-            Users. All data associated with the application remains solely on
-            the {"User's"} device and is not stored or processed by the Company.
+            Perusahaan kami tidak menyimpan Data Pribadi atau Data Penggunaan
+            apa pun dari Pengguna. Semua data yang terkait dengan aplikasi hanya
+            tersimpan di perangkat {"Pengguna"} dan tidak disimpan atau diproses
+            oleh Perusahaan.
           </Text>
         </Stack>
         <Stack gapY={5}>
-          <Heading size={"2xl"}>Transfer of Your Personal Data</Heading>
+          <Heading size={"2xl"}>Transfer Data Pribadi Anda</Heading>
           <Text>
-            Our application does not transfer or process any Personal Data
-            outside of Your device. All data remains stored locally on Your
-            device, and no information is transmitted to the {"Company's"}{" "}
-            servers or third parties.
+            Aplikasi kami tidak mentransfer atau memproses Data Pribadi apa pun
+            di luar perangkat Anda. Semua data tetap tersimpan secara lokal di
+            perangkat Anda, dan tidak ada informasi yang dikirimkan ke server{" "}
+            {"Perusahaan"} atau pihak ketiga.
           </Text>
         </Stack>
         <Stack gapY={5}>
           <Heading size={"2xl"}>Delete Your Personal Data</Heading>
           <Stack>
+            <Text>Hapus Data Pribadi Anda</Text>
             <Text>
-              You have the right to delete the Personal Data that We have
-              collected about You.
+              Layanan kami dirancang untuk memastikan bahwa mencopot pemasangan
+              aplikasi dari perangkat Anda akan secara otomatis menghapus Data
+              Pribadi yang terkait dengan Penggunaan aplikasi oleh Anda. Jika
+              diperlukan langkah tambahan untuk menyelesaikan proses
+              penghapusan, Anda akan diberi tahu dalam aplikasi atau melalui
+              dokumentasi yang menyertainya.
             </Text>
             <Text>
-              Our Service is designed to ensure that uninstalling the
-              application from Your device will automatically delete the
-              Personal Data associated with Your Use of the application. If
-              additional steps are required to complete the deletion process,
-              You will be informed within the application or through
-              accompanying documentation.
-            </Text>
-            <Text>
-              Please note, hoWever, that We may retain certain information if
-              required by law or if We have a lawful basis to do so, even after
-              the application is uninstalled.
+              Namun, perlu diperhatikan bahwa Kami dapat menyimpan informasi
+              tertentu jika diwajibkan oleh hukum atau jika Kami memiliki dasar
+              hukum untuk melakukannya, bahkan setelah aplikasi tersebut dihapus
+              instalasinya.
             </Text>
           </Stack>
         </Stack>
         <Stack gapY={5}>
-          <Heading size={"2xl"}>Disclosure of Your Personal Data</Heading>
+          <Heading size={"2xl"}>Pengungkapan Data Pribadi Anda</Heading>
           <Stack gapY={3}>
-            <Heading size={"xl"}>Business Transactions</Heading>
+            <Heading size={"xl"}>Transaksi Bisnis</Heading>
             <Text>
-              If the Company is involved in a merger, acquisition or asset sale,
-              Your Personal Data may be transferred. We will provide notice
-              before Your Personal Data is transferred and becomes subject to a
-              different Privacy Policy.
+              Jika Perusahaan terlibat dalam penggabungan, akuisisi, atau
+              penjualan aset, Data Pribadi Anda dapat ditransfer. Kami akan
+              memberikan pemberitahuan sebelum Data Pribadi Anda ditransfer dan
+              menjadi subjek Kebijakan Privasi yang berbeda.
             </Text>
           </Stack>
           <Stack gapY={3}>
-            <Heading size={"xl"}>Law enforcement</Heading>
+            <Heading size={"xl"}>Penegakan hukum</Heading>
             <Text>
-              Under certain circumstances, the Company may be required to
-              disclose Your Personal Data if required to do so by law or in
-              response to valid requests by public authorities (e.g. a court or
-              a government agency).
+              Dalam keadaan tertentu, Perusahaan mungkin diharuskan untuk
+              mengungkapkan Data Pribadi Anda jika diharuskan oleh hukum atau
+              sebagai tanggapan atas permintaan yang sah oleh otoritas publik
+              (misalnya pengadilan atau lembaga pemerintah).
             </Text>
           </Stack>
           <Stack gapY={3}>
-            <Heading size={"xl"}>Other legal requirements</Heading>
+            <Heading size={"xl"}>Persyaratan hukum lainnya</Heading>
             <Stack>
               <Text>
-                The Company may disclose Your Personal Data in the good faith
-                belief that such action is necessary to:
+                Perusahaan dapat mengungkapkan Data Pribadi Anda dengan
+                keyakinan yang baik bahwa tindakan tersebut diperlukan untuk:
               </Text>
               <List.Root>
-                <List.Item>Comply with a legal obligation</List.Item>
+                <List.Item>Mematuhi kewajiban hukum</List.Item>
                 <List.Item>
-                  Protect and defend the rights or property of the Company
+                  Melindungi dan mempertahankan hak atau properti Perusahaan
                 </List.Item>
                 <List.Item>
-                  Prevent or investigate possible wrongdoing in connection with
-                  the Service
+                  Mencegah atau menyelidiki kemungkinan terjadinya kesalahan
+                  sehubungan dengan Layanan
                 </List.Item>
                 <List.Item>
-                  Protect the personal safety of Users of the Service or the
-                  public
+                  Melindungi keselamatan pribadi Pengguna Layanan atau
+                  masyarakat
                 </List.Item>
-                <List.Item>Protect against legal liability</List.Item>
+                <List.Item>Melindungi dari tanggung jawab hukum</List.Item>
               </List.Root>
             </Stack>
           </Stack>
         </Stack>
         <Stack gapY={5}>
-          <Heading size={"2xl"}>Security of Your Personal Data</Heading>
+          <Heading size={"2xl"}>Keamanan Data Pribadi Anda</Heading>
           <Text>
-            The security of Your Personal Data is important to Us, but remember
-            that no method of transmission over the Internet, or method of
-            electronic storage is 100% secure. While We strive to Use
-            commercially acceptable means to protect Your Personal Data, We
-            cannot guarantee its absolute security.
+            Keamanan Data Pribadi Anda penting bagi Kami, tetapi ingatlah bahwa
+            tidak ada metode transmisi melalui Internet, atau metode penyimpanan
+            elektronik yang 100% aman. Meskipun Kami berusaha untuk Menggunakan
+            cara yang dapat diterima secara komersial untuk melindungi Data
+            Pribadi Anda, Kami tidak dapat menjamin keamanannya secara mutlak.
           </Text>
         </Stack>
       </Stack>
       <Stack gapY={10}>
-        <Heading size={"4xl"}>{"Children's"} Privacy</Heading>
+        <Heading size={"4xl"}>Privasi {"Anak-anak"}</Heading>
         <Stack>
           <Text>
-            Our Service does not address anyone under the age of 13. We do not
-            knowingly collect personally identifiable information from anyone
-            under the age of 13. If You are a parent or guardian and You are
-            aware that Your child has provided Us with Personal Data, please
-            contact Us. If We become aware that We have collected Personal Data
-            from anyone under the age of 13 without verification of parental
-            consent, We take steps to remove that information from Our servers.
+            Layanan kami tidak ditujukan kepada siapa pun yang berusia di bawah
+            13 tahun. Kami tidak secara sengaja mengumpulkan informasi identitas
+            pribadi dari siapa pun yang berusia di bawah 13 tahun. Jika Anda
+            adalah orang tua atau wali dan Anda mengetahui bahwa anak Anda telah
+            memberikan Data Pribadi kepada Kami, silakan hubungi Kami. Jika Kami
+            mengetahui bahwa Kami telah mengumpulkan Data Pribadi dari siapa pun
+            yang berusia di bawah 13 tahun tanpa verifikasi persetujuan orang
+            tua, Kami mengambil langkah-langkah untuk menghapus informasi
+            tersebut dari server Kami.
           </Text>
           <Text>
-            If We need to rely on consent as a legal basis for processing Your
-            information and Your country requires consent from a parent, We may
-            require Your {"parent's"} consent before We collect and Use that
-            information.
+            Jika Kami perlu mengandalkan persetujuan sebagai dasar hukum untuk
+            memproses informasi Anda dan negara Anda mengharuskan persetujuan
+            dari orang tua, Kami mungkin memerlukan persetujuan {"orang tua"}{" "}
+            Anda sebelum Kami mengumpulkan dan Menggunakan informasi tersebut.
           </Text>
         </Stack>
       </Stack>
       <Stack gapY={10}>
-        <Heading size={"4xl"}>Changes to this Privacy Policy</Heading>
+        <Heading size={"4xl"}>Perubahan pada Kebijakan Privasi ini</Heading>
         <Stack>
           <Text>
-            We may update Our Privacy Policy from time to time. We will notify
-            You of any changes by posting the new Privacy Policy on this page.
+            Kami dapat memperbarui Kebijakan Privasi Kami dari waktu ke waktu.
+            Kami akan memberi tahu Anda tentang perubahan apa pun dengan
+            mengeposkan Kebijakan Privasi baru di halaman ini.
           </Text>
           <Text>
-            We will let You know via email and/or a prominent notice on Our
-            Service, prior to the change becoming effective and update the{" "}
-            {'"Last updated"'} date at the top of this Privacy Policy.
+            Kami akan memberi tahu Anda melalui email dan/atau pemberitahuan
+            yang mencolok pada Layanan Kami, sebelum perubahan tersebut berlaku
+            dan memperbarui tanggal {""}
+            {'"Terakhir diperbarui"'} di bagian atas Kebijakan Privasi ini.
           </Text>
           <Text>
-            You are advised to review this Privacy Policy periodically for any
-            changes. Changes to this Privacy Policy are effective when they are
-            posted on this page.
+            Anda disarankan untuk meninjau Kebijakan Privasi ini secara berkala
+            untuk mengetahui adanya perubahan. Perubahan pada Kebijakan Privasi
+            ini berlaku efektif saat dipublikasikan di halaman ini.
           </Text>
         </Stack>
       </Stack>
       <Stack gapY={10}>
-        <Heading size={"4xl"}>Contact Us</Heading>
+        <Heading size={"4xl"}>Hubungi kami</Heading>
         <Stack>
           <Text>
-            If you have any questions about this Privacy Policy, You can contact
-            Us:
+            Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, Anda
+            dapat menghubungi Kami:
           </Text>
           <List.Root>
-            <List.Item>By email: feline.ada24@gmail.com</List.Item>
+            <List.Item>Melalui email: feline.ada24@gmail.com</List.Item>
           </List.Root>
         </Stack>
       </Stack>
