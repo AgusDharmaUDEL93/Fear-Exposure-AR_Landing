@@ -47,6 +47,7 @@ const BenefitHome = () => {
           <Text>Select from Among 8 Phobias to Work On</Text>
         </Stack>
       </Flex>
+      <Box height={"5rem"} />
       <Flex
         align={"center"}
         flexDirection={{ base: "column-reverse", md: "row" }}

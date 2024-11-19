@@ -39,12 +39,12 @@ const HeroHome = () => {
           All in one AR-powered exposure therapy tool to help tackle your fears
         </Text>
 
-        <Button size={"xl"} variant={"outline"} colorPalette={"black"}>
+        <Button size={"xl"} variant={"outline"} bgColor={"black"}>
           <HStack align={"center"}>
             <Image src="/assets/images/apple_icon.svg" alt="Apple Icon" />
-            <Flex direction={"column"} align={"start"}>
+            <Flex direction={"column"} align={"start"} color={"white"}>
               <Text fontSize={"xs"}>Download on the</Text>
-              <Heading size={"md"} marginTop={"-2.5"}>
+              <Heading size={"xl"} marginTop={"-2.5"}>
                 App Store
               </Heading>
             </Flex>
