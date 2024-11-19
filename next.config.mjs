@@ -11,7 +11,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/app",
+        source: "/download",
         destination: "https://apps.apple.com/app/fear-exposure-ar/id6736893205",
         permanent: true,
       },
