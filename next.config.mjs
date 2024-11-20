@@ -15,11 +15,6 @@ const nextConfig = {
         destination: "https://apps.apple.com/app/fear-exposure-ar/id6736893205",
         permanent: true,
       },
-      {
-        source: "/instagram",
-        destination: "https://apps.apple.com/app/fear-exposure-ar/id6736893205",
-        permanent: true,
-      },
     ];
   },
 };
